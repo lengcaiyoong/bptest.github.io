@@ -19,8 +19,9 @@ fetch('textdetails.txt')
       copyBtn.addEventListener('click', () => {
         const rowData = dataArray[i].join('\t');
         navigator.clipboard.writeText(rowData);
-        alert('Row data copied to clipboard!');
+        //alert('Row data copied to clipboard!');
       });
+        console.log('copied');
       buttonCell.appendChild(copyBtn);
 
       // Add the remaining data cells to the row
