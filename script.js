@@ -3,7 +3,7 @@ fetch('textdetails2.txt')
   .then(response => response.text())
   .then(data => {
     // Parse the text content into an array
-    const dataArray = data.split('\n').map(row => row.split(', '));
+    const dataArray = data.split('\n').map(row => row.split(','));
 
     // Create a table element
     const table = document.getElementById('my-table');
