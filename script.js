@@ -1,5 +1,5 @@
 // Fetch the contents of the text file
-fetch('textdetails.txt')
+fetch('textdetails2.txt')
   .then(response => response.text())
   .then(data => {
     // Parse the text content into an array
