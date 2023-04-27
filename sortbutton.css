@@ -1,18 +1,13 @@
-#myButton {
-  position: relative;
-  padding-left: 20px;
-}
-
-#myButton:before {
-  content: attr(data-count);
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 16px;
-  height: 16px;
-  background-color: #ccc;
+#counter {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
+  background-color: red;
+  color: white;
   text-align: center;
-  font-size: 12px;
-  line-height: 16px;
+  line-height: 20px;
+  font-size: 14px;
 }
