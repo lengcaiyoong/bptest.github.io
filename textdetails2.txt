@@ -1,5 +1,5 @@
 "DLRAW.NET-00001,,
-"山口つばさ,ya ma gu chi-tsu ba sa,Yamaguchi. Wing
+"山口つばさ",ya ma gu chi-tsu ba sa,Yamaguchi. Wing
 "DLRAW.NET-00002,,.
 "DLRAW.NET-00003,,.
 "俺は,o re-wa,I. teeth
