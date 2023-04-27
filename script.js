@@ -5,7 +5,9 @@ fetch('textdetails2.txt')
     // Parse the text content into an array
     const dataArray = data.split('\n').map(row => row.split(','));
 
-    console.log(data[2])
+    //print data
+    console.log('hello world');
+    console.log(data[2]);
   
     // Create a table element
     const table = document.getElementById('my-table');
