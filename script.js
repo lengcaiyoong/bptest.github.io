@@ -7,9 +7,9 @@ fetch('textdetails2.txt')
 
     //print data
     console.log('hello world');
-    console.log(data[2]);
-    console.log(data[8]);
-    console.log(data);
+    console.log(dataArray[2]);
+    console.log(dataArray[8]);
+    console.log(dataArray);
   
     // Create a table element
     const table = document.getElementById('my-table');
