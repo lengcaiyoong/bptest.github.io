@@ -23,3 +23,8 @@
   visibility: visible;
   opacity: 1;
 }
+
+
+img {
+  float: left;
+}
