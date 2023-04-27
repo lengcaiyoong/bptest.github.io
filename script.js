@@ -45,6 +45,8 @@ let count = 0;
 button.addEventListener('click', () => {
   count++;
   counter.innerHTML = count;
+  counter.classList.add('show');
 });
+
 
 
