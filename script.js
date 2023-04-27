@@ -37,3 +37,12 @@ fetch('textdetails2.txt')
       }
     }
   });
+
+
+let count = 0;
+const button = document.getElementById("myButton");
+button.addEventListener("click", () => {
+  count++;
+  button.setAttribute("data-count", count);
+});
+
