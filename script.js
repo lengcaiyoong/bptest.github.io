@@ -39,10 +39,12 @@ fetch('textdetails2.txt')
   });
 
 
+const button = document.getElementById('counter-btn');
+const counter = document.getElementById('counter');
 let count = 0;
-const button = document.getElementById("myButton");
-button.addEventListener("click", () => {
+button.addEventListener('click', () => {
   count++;
-  button.setAttribute("data-count", count);
+  counter.innerHTML = count;
 });
+
 
