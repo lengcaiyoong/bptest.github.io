@@ -4,7 +4,10 @@ fetch('textdetails2.txt')
   .then(data => {
     // Parse the text content into an array
     const dataArray = data.split('\n').map(row => row.split(','));
-
+    console.log(dataArray);
+    data01 = dataArray;  
+    console.log(data01);
+  
     //print data
     console.log('hello world');
     console.log(dataArray[2]);
@@ -49,4 +52,4 @@ button.addEventListener('click', () => {
 });
 
 
-
+console.log(data01);
