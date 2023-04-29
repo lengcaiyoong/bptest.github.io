@@ -54,5 +54,3 @@ button.addEventListener('click', () => {
 });
 
 
-console.log('hello1');
-console.log(dataa)
