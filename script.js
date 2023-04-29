@@ -1,3 +1,5 @@
+
+
 // Fetch the contents of the text file
 fetch('textdetails2.txt')
   .then(response => response.text())
@@ -5,7 +7,7 @@ fetch('textdetails2.txt')
     // Parse the text content into an array
     const dataArray = data.split('\n').map(row => row.split(','));
     console.log(dataArray);
-    data01 = dataArray;  
+    let data01 = dataArray;  
     console.log(data01);
   
     //print data
